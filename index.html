@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <header>
@@ -17,5 +18,50 @@
                 </ul>
             </nav>
         </header>
-</body>
+        <section id ="hero">
+            <div class ="hero-text">
+                <h1>Hi, I'm Nischal Neupane</h1>
+                <p>A self-taught Full Stack Developer from Kathmandu, Nepal. 
+                    I build scalable web applications using Django, React, and PostgreSQL.
+                </p>
+                <a href= "#projects">View My Work</a>
+                <div class="hero-image">    
+                    <img src = "img.profile.jpg" alt = "Nischal Neupane">
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="img/ecommerce.png" alt = "E-Commerce App">
+                    <h3>E-Commerce App</h3>
+                    <p>A full- featured e-commerce platform built with Django Rest
+                        Framework and React.Includes product listing, cart, orders, JWT authentication, and PostgreSQL database
+                    </p>
+                    <a href="https://github.com/Nick0099/E_Commerce" class = "btn-secondary">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="img.hospital.png" alt="Hospital Management System">
+                    <h3>Hospital Management System</h3>
+                    <p>
+                        A hospital management system built with Django and React. 
+                        Manages patients, doctors, appointments, and medical records 
+                        with role-based access control.
+                    </p>
+                    <a href="https://github.com/Nick0099/hospital-django">View on github</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/html.png" alt="html page">
+                    <h3>Career Change</h3>
+                    <p>
+                        A menu card made from html only.
+                        That shows the start of the transition from Django based full stack development to
+                        Javascript based Full stack Development.
+                    </p>
+                    <a href="https://github.com/Nick0099/odin-recipes">View view on Github</a>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
