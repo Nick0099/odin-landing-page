@@ -1,8 +1,11 @@
+body{
+    font-family: Roboto;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 32px;
+    padding: 16px px;
     background-color: #1F2937;
 }
 
@@ -26,5 +29,44 @@
 }
 
 .nav-links a:hover {
+    color: #a8b2d8;
+}
+#hero{
+    background-color: #1F2937;
+}
+.hero-main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-sec{
+    color: #E5E7EB;
+    font-size: 24px;    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #1F2937;
+}
+.footer-text{
+    color: #E5E7EB;
+}
+.footer-links {
+    display: flex;
+    list-style: none;
+    font-size : 18px;
+    color:#E5E7EB;
+    gap: 24px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
     color: #a8b2d8;
 }
